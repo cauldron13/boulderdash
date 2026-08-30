@@ -1,0 +1,132 @@
+{
+    "schemaVersion":  1,
+    "action":  "AnimationCadenceTrace",
+    "observedAtUtc":  "2026-08-28T23:12:27.0915515Z",
+    "d64Sha256":  "69a5fec66a8e88ef2750118dd4ce932da7691fc0bb5aeb6844b293a7cc5c62d9",
+    "vicePath":  "C:\\Users\\Tony\\AppData\\Local\\Microsoft\\WinGet\\Packages\\VICE-Team.VICE.SDL2_Microsoft.Winget.Source_8wekyb3d8bbwe\\SDL2VICE-3.10-win64\\x64sc.exe",
+    "viceVersion":  "SDL2VICE-3.10-win64",
+    "commandLine":  "\"C:\\Users\\Tony\\AppData\\Local\\Microsoft\\WinGet\\Packages\\VICE-Team.VICE.SDL2_Microsoft.Winget.Source_8wekyb3d8bbwe\\SDL2VICE-3.10-win64\\x64sc.exe\" -pal -autostart \"C:\\boulder\\boulder_dash_for_c64\\Boulder Dash.d64\" -binarymonitor -binarymonitoraddress ip4://127.0.0.1:6502",
+    "binaryMonitor":  {
+                          "apiVersion":  "0x02",
+                          "endpoint":  "ip4://127.0.0.1:6502",
+                          "resumeCommand":  "0xaa",
+                          "pingCommand":  "0x81"
+                      },
+    "result":  {
+                   "animateAddress":  "0x7E8F",
+                   "samples":  [
+                                   {
+                                       "sequence":  0,
+                                       "cpuClock":  60065947,
+                                       "subSecondCounter":  116,
+                                       "animationFrameTimes8BeforeAnimate":  "0x00",
+                                       "anotherFrameCounter":  3
+                                   },
+                                   {
+                                       "sequence":  1,
+                                       "cpuClock":  60105328,
+                                       "subSecondCounter":  118,
+                                       "animationFrameTimes8BeforeAnimate":  "0x08",
+                                       "anotherFrameCounter":  5
+                                   },
+                                   {
+                                       "sequence":  2,
+                                       "cpuClock":  60144591,
+                                       "subSecondCounter":  120,
+                                       "animationFrameTimes8BeforeAnimate":  "0x10",
+                                       "anotherFrameCounter":  7
+                                   },
+                                   {
+                                       "sequence":  3,
+                                       "cpuClock":  60183892,
+                                       "subSecondCounter":  122,
+                                       "animationFrameTimes8BeforeAnimate":  "0x18",
+                                       "anotherFrameCounter":  9
+                                   },
+                                   {
+                                       "sequence":  4,
+                                       "cpuClock":  60223264,
+                                       "subSecondCounter":  124,
+                                       "animationFrameTimes8BeforeAnimate":  "0x20",
+                                       "anotherFrameCounter":  11
+                                   },
+                                   {
+                                       "sequence":  5,
+                                       "cpuClock":  60262527,
+                                       "subSecondCounter":  126,
+                                       "animationFrameTimes8BeforeAnimate":  "0x28",
+                                       "anotherFrameCounter":  13
+                                   },
+                                   {
+                                       "sequence":  6,
+                                       "cpuClock":  60301828,
+                                       "subSecondCounter":  128,
+                                       "animationFrameTimes8BeforeAnimate":  "0x30",
+                                       "anotherFrameCounter":  15
+                                   },
+                                   {
+                                       "sequence":  7,
+                                       "cpuClock":  60341197,
+                                       "subSecondCounter":  130,
+                                       "animationFrameTimes8BeforeAnimate":  "0x38",
+                                       "anotherFrameCounter":  17
+                                   },
+                                   {
+                                       "sequence":  8,
+                                       "cpuClock":  60380454,
+                                       "subSecondCounter":  1,
+                                       "animationFrameTimes8BeforeAnimate":  "0x00",
+                                       "anotherFrameCounter":  19
+                                   },
+                                   {
+                                       "sequence":  9,
+                                       "cpuClock":  60419753,
+                                       "subSecondCounter":  3,
+                                       "animationFrameTimes8BeforeAnimate":  "0x08",
+                                       "anotherFrameCounter":  21
+                                   },
+                                   {
+                                       "sequence":  10,
+                                       "cpuClock":  60459127,
+                                       "subSecondCounter":  5,
+                                       "animationFrameTimes8BeforeAnimate":  "0x10",
+                                       "anotherFrameCounter":  23
+                                   },
+                                   {
+                                       "sequence":  11,
+                                       "cpuClock":  60498390,
+                                       "subSecondCounter":  7,
+                                       "animationFrameTimes8BeforeAnimate":  "0x18",
+                                       "anotherFrameCounter":  25
+                                   },
+                                   {
+                                       "sequence":  12,
+                                       "cpuClock":  60537689,
+                                       "subSecondCounter":  9,
+                                       "animationFrameTimes8BeforeAnimate":  "0x20",
+                                       "anotherFrameCounter":  27
+                                   },
+                                   {
+                                       "sequence":  13,
+                                       "cpuClock":  60577060,
+                                       "subSecondCounter":  11,
+                                       "animationFrameTimes8BeforeAnimate":  "0x28",
+                                       "anotherFrameCounter":  29
+                                   },
+                                   {
+                                       "sequence":  14,
+                                       "cpuClock":  60616330,
+                                       "subSecondCounter":  13,
+                                       "animationFrameTimes8BeforeAnimate":  "0x30",
+                                       "anotherFrameCounter":  31
+                                   },
+                                   {
+                                       "sequence":  15,
+                                       "cpuClock":  60655625,
+                                       "subSecondCounter":  15,
+                                       "animationFrameTimes8BeforeAnimate":  "0x38",
+                                       "anotherFrameCounter":  33
+                                   }
+                               ]
+               }
+}

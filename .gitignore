@@ -1,0 +1,8 @@
+/.vs/
+/build*/
+/out/
+/CMakePresets.json
+/CMakeUserPresets.json
+/AGENTS.md
+/boulder_dash_for_c64/
+/scripts/

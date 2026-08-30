@@ -1,0 +1,754 @@
+{
+    "schemaVersion":  1,
+    "action":  "Calibrate",
+    "observedAtUtc":  "2026-08-28T23:07:59.0545432Z",
+    "d64Sha256":  "69a5fec66a8e88ef2750118dd4ce932da7691fc0bb5aeb6844b293a7cc5c62d9",
+    "vicePath":  "C:\\Users\\Tony\\AppData\\Local\\Microsoft\\WinGet\\Packages\\VICE-Team.VICE.SDL2_Microsoft.Winget.Source_8wekyb3d8bbwe\\SDL2VICE-3.10-win64\\x64sc.exe",
+    "viceVersion":  "SDL2VICE-3.10-win64",
+    "commandLine":  "\"C:\\Users\\Tony\\AppData\\Local\\Microsoft\\WinGet\\Packages\\VICE-Team.VICE.SDL2_Microsoft.Winget.Source_8wekyb3d8bbwe\\SDL2VICE-3.10-win64\\x64sc.exe\" -pal -autostart \"C:\\boulder\\boulder_dash_for_c64\\Boulder Dash.d64\" -binarymonitor -binarymonitoraddress ip4://127.0.0.1:6502",
+    "binaryMonitor":  {
+                          "apiVersion":  "0x02",
+                          "endpoint":  "ip4://127.0.0.1:6502",
+                          "resumeCommand":  "0xaa",
+                          "pingCommand":  "0x81"
+                      },
+    "result":  [
+                   null,
+                   {
+                       "cave":  1,
+                       "requestedSublevel":  1,
+                       "resolvedProcessCave":  "0x8171",
+                       "activation":  {
+                                          "id":  1,
+                                          "hit":  true,
+                                          "startAddress":  33137,
+                                          "endAddress":  33137,
+                                          "stopWhenHit":  true,
+                                          "enabled":  true,
+                                          "operation":  4,
+                                          "temporary":  false,
+                                          "hitCount":  1,
+                                          "ignoreCount":  0,
+                                          "hasCondition":  false,
+                                          "memspace":  0
+                                      },
+                       "rockfordActivation":  {
+                                                  "id":  1,
+                                                  "hit":  true,
+                                                  "startAddress":  30277,
+                                                  "endAddress":  30277,
+                                                  "stopWhenHit":  true,
+                                                  "enabled":  true,
+                                                  "operation":  4,
+                                                  "temporary":  false,
+                                                  "hitCount":  1,
+                                                  "ignoreCount":  0,
+                                                  "hasCondition":  false,
+                                                  "memspace":  0
+                                              },
+                       "entryCountdownTicks":  1,
+                       "timing":  {
+                                      "unit":  "60 C64 SubSecondTick writes to $ae per sample",
+                                      "source":  "SubSecondTick $7111-$712c; counter resets at 0x3c",
+                                      "subSecondTicksPerSample":  60,
+                                      "alignedProcessCaveHitCount":  0,
+                                      "alignedCpuClock":  65694585
+                                  },
+                       "input":  {
+                                     "source":  "JoyportSet",
+                                     "ports":  [
+                                                   0,
+                                                   1
+                                               ],
+                                     "value":  "0x0000",
+                                     "direction":  "neutral"
+                                 },
+                       "checkpoint":  {
+                                          "id":  1,
+                                          "hit":  false,
+                                          "startAddress":  33137,
+                                          "endAddress":  33137,
+                                          "stopWhenHit":  false,
+                                          "enabled":  true,
+                                          "operation":  4,
+                                          "temporary":  false,
+                                          "hitCount":  90,
+                                          "ignoreCount":  0,
+                                          "hasCondition":  false,
+                                          "memspace":  0
+                                      },
+                       "samples":  [
+                                       {
+                                           "sequence":  1,
+                                           "timestampUtc":  "2026-08-28T23:07:31.4271773Z",
+                                           "processCaveHits":  9,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  3
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  239
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  17
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  9,
+                                           "cpuClock":  66854289,
+                                           "cpuCyclesSinceAlignedStart":  1159704
+                                       },
+                                       {
+                                           "sequence":  2,
+                                           "timestampUtc":  "2026-08-28T23:07:34.5252137Z",
+                                           "processCaveHits":  18,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  81
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  241
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  17
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  18,
+                                           "cpuClock":  68013993,
+                                           "cpuCyclesSinceAlignedStart":  2319408
+                                       },
+                                       {
+                                           "sequence":  3,
+                                           "timestampUtc":  "2026-08-28T23:07:37.5853435Z",
+                                           "processCaveHits":  27,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  81
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  239
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  17
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  27,
+                                           "cpuClock":  69173697,
+                                           "cpuCyclesSinceAlignedStart":  3479112
+                                       },
+                                       {
+                                           "sequence":  4,
+                                           "timestampUtc":  "2026-08-28T23:07:40.6585176Z",
+                                           "processCaveHits":  36,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  41
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  241
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  11
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  36,
+                                           "cpuClock":  70333378,
+                                           "cpuCyclesSinceAlignedStart":  4638793
+                                       },
+                                       {
+                                           "sequence":  5,
+                                           "timestampUtc":  "2026-08-28T23:07:43.7240009Z",
+                                           "processCaveHits":  45,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  41
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  241
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  17
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  45,
+                                           "cpuClock":  71493105,
+                                           "cpuCyclesSinceAlignedStart":  5798520
+                                       },
+                                       {
+                                           "sequence":  6,
+                                           "timestampUtc":  "2026-08-28T23:07:46.7869469Z",
+                                           "processCaveHits":  54,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  241
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  17
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  54,
+                                           "cpuClock":  72652809,
+                                           "cpuCyclesSinceAlignedStart":  6958224
+                                       },
+                                       {
+                                           "sequence":  7,
+                                           "timestampUtc":  "2026-08-28T23:07:49.8520560Z",
+                                           "processCaveHits":  63,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  241
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  17
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  63,
+                                           "cpuClock":  73812513,
+                                           "cpuCyclesSinceAlignedStart":  8117928
+                                       },
+                                       {
+                                           "sequence":  8,
+                                           "timestampUtc":  "2026-08-28T23:07:52.9211054Z",
+                                           "processCaveHits":  72,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  5
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  239
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  11
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  72,
+                                           "cpuClock":  74972194,
+                                           "cpuCyclesSinceAlignedStart":  9277609
+                                       },
+                                       {
+                                           "sequence":  9,
+                                           "timestampUtc":  "2026-08-28T23:07:55.9979718Z",
+                                           "processCaveHits":  81,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  241
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  11
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  81,
+                                           "cpuClock":  76131898,
+                                           "cpuCyclesSinceAlignedStart":  10437313
+                                       },
+                                       {
+                                           "sequence":  10,
+                                           "timestampUtc":  "2026-08-28T23:07:59.0520284Z",
+                                           "processCaveHits":  90,
+                                           "rockfordX":  3,
+                                           "rockfordY":  4,
+                                           "cells":  {
+                                                         "left":  "0x01",
+                                                         "current":  "0x38",
+                                                         "right":  "0x01"
+                                                     },
+                                           "cave":  1,
+                                           "sublevel":  1,
+                                           "joystickStatus":  "0x0F",
+                                           "flashingEntryBoxCountdown":  0,
+                                           "scroll":  {
+                                                          "rockfordCellsFromTop":  4,
+                                                          "rockfordCellsFromLeft":  3,
+                                                          "directionY":  0,
+                                                          "directionX":  0
+                                                      },
+                                           "registers":  [
+                                                             {
+                                                                 "id":  3,
+                                                                 "value":  29867
+                                                             },
+                                                             {
+                                                                 "id":  0,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  1,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  2,
+                                                                 "value":  0
+                                                             },
+                                                             {
+                                                                 "id":  4,
+                                                                 "value":  241
+                                                             },
+                                                             {
+                                                                 "id":  55,
+                                                                 "value":  47
+                                                             },
+                                                             {
+                                                                 "id":  56,
+                                                                 "value":  54
+                                                             },
+                                                             {
+                                                                 "id":  5,
+                                                                 "value":  36
+                                                             },
+                                                             {
+                                                                 "id":  53,
+                                                                 "value":  67
+                                                             },
+                                                             {
+                                                                 "id":  54,
+                                                                 "value":  17
+                                                             }
+                                                         ],
+                                           "processCaveHitsSinceAlignedStart":  90,
+                                           "cpuClock":  77291625,
+                                           "cpuCyclesSinceAlignedStart":  11597040
+                                       }
+                                   ]
+                   }
+               ]
+}

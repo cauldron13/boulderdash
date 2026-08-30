@@ -1,0 +1,160 @@
+{
+    "schemaVersion":  1,
+    "action":  "CaveCompletionProbe",
+    "observedAtUtc":  "2026-08-28T23:13:18.9142425Z",
+    "d64Sha256":  "69a5fec66a8e88ef2750118dd4ce932da7691fc0bb5aeb6844b293a7cc5c62d9",
+    "vicePath":  "C:\\Users\\Tony\\AppData\\Local\\Microsoft\\WinGet\\Packages\\VICE-Team.VICE.SDL2_Microsoft.Winget.Source_8wekyb3d8bbwe\\SDL2VICE-3.10-win64\\x64sc.exe",
+    "viceVersion":  "SDL2VICE-3.10-win64",
+    "commandLine":  "\"C:\\Users\\Tony\\AppData\\Local\\Microsoft\\WinGet\\Packages\\VICE-Team.VICE.SDL2_Microsoft.Winget.Source_8wekyb3d8bbwe\\SDL2VICE-3.10-win64\\x64sc.exe\" -pal -autostart \"C:\\boulder\\boulder_dash_for_c64\\Boulder Dash.d64\" -binarymonitor -binarymonitoraddress ip4://127.0.0.1:6502",
+    "binaryMonitor":  {
+                          "apiVersion":  "0x02",
+                          "endpoint":  "ip4://127.0.0.1:6502",
+                          "resumeCommand":  "0xaa",
+                          "pingCommand":  "0x81"
+                      },
+    "result":  [
+                   null,
+                   {
+                       "scenario":  "Cave A is started from the title. At the next ProcessCave entry, the two flags written by TryToMoveRockford__NotOutbox are injected with a three-second BCD timer. No C64 code or D64 byte is modified. This proves the completion path and cadence, but not a natural joystick route to the outbox.",
+                       "cave":  1,
+                       "requestedSublevel":  0,
+                       "resolvedAddresses":  {
+                                                 "processCave":  "0x8171",
+                                                 "scoreTimeRemainingLoop":  "0x8C12",
+                                                 "nextCaveSelectionWrite":  "$005d write"
+                                             },
+                       "entry":  {
+                                     "cpuClock":  62449122,
+                                     "state":  "03 04 00 DC 00 08 B2 00 00 00 00 00 00 00 01 00 17 1B 15 18 3C 38 28 3B 03 01 00 00 00 00 00 00 00 10 10 10 10 10 10 03 01 00 00 00 00 00 00 00 10 10 10 10 10 10 03 01 00 00 00 00 00 00 00 10 10 10 10 10 10 D0 07 80 01 00 00 00 00 28 16 01 00 03 00 00 00 01 7F 00 0C 00 00 00 00 07 00 01 00 00 00 00 00 00 00 01 05 00 30 00",
+                                     "injected":  {
+                                                      "exitCaveFlag":  "0x02",
+                                                      "enteredOutboxFlag":  "0x01",
+                                                      "timeLeftDigits":  [
+                                                                             0,
+                                                                             0,
+                                                                             3
+                                                                         ]
+                                                  }
+                                 },
+                       "scoreLoop":  {
+                                         "samples":  [
+                                                         {
+                                                             "sequence":  0,
+                                                             "cpuClock":  62604589,
+                                                             "cave":  1,
+                                                             "sublevel":  0,
+                                                             "exitCaveFlag":  "0x00",
+                                                             "enteredOutboxFlag":  "0x01",
+                                                             "secondsDontPass":  "0x01",
+                                                             "timeLeftDigits":  [
+                                                                                    0,
+                                                                                    0,
+                                                                                    3
+                                                                                ],
+                                                             "scoreDigits":  [
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0
+                                                                             ]
+                                                         },
+                                                         {
+                                                             "sequence":  1,
+                                                             "cpuClock":  62637013,
+                                                             "cave":  1,
+                                                             "sublevel":  0,
+                                                             "exitCaveFlag":  "0x00",
+                                                             "enteredOutboxFlag":  "0x01",
+                                                             "secondsDontPass":  "0x01",
+                                                             "timeLeftDigits":  [
+                                                                                    0,
+                                                                                    0,
+                                                                                    2
+                                                                                ],
+                                                             "scoreDigits":  [
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 1
+                                                                             ]
+                                                         },
+                                                         {
+                                                             "sequence":  2,
+                                                             "cpuClock":  62669102,
+                                                             "cave":  1,
+                                                             "sublevel":  0,
+                                                             "exitCaveFlag":  "0x00",
+                                                             "enteredOutboxFlag":  "0x01",
+                                                             "secondsDontPass":  "0x01",
+                                                             "timeLeftDigits":  [
+                                                                                    0,
+                                                                                    0,
+                                                                                    1
+                                                                                ],
+                                                             "scoreDigits":  [
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 2
+                                                                             ]
+                                                         },
+                                                         {
+                                                             "sequence":  3,
+                                                             "cpuClock":  62685748,
+                                                             "cave":  1,
+                                                             "sublevel":  0,
+                                                             "exitCaveFlag":  "0x02",
+                                                             "enteredOutboxFlag":  "0x01",
+                                                             "secondsDontPass":  "0x01",
+                                                             "timeLeftDigits":  [
+                                                                                    0,
+                                                                                    0,
+                                                                                    0
+                                                                                ],
+                                                             "scoreDigits":  [
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 0,
+                                                                                 3
+                                                                             ]
+                                                         }
+                                                     ],
+                                         "intervals":  [
+                                                           {
+                                                               "fromSequence":  0,
+                                                               "toSequence":  1,
+                                                               "cpuCycles":  32424
+                                                           },
+                                                           {
+                                                               "fromSequence":  1,
+                                                               "toSequence":  2,
+                                                               "cpuCycles":  32089
+                                                           },
+                                                           {
+                                                               "fromSequence":  2,
+                                                               "toSequence":  3,
+                                                               "cpuCycles":  16646
+                                                           }
+                                                       ]
+                                     },
+                       "nextCaveSelected":  {
+                                                "cpuClock":  63853402,
+                                                "cpuCyclesSinceLastScoreLoop":  1167654,
+                                                "state":  "02 00 00 00 00 00 00 03 10 10 10 10 10 10 03 01 00 00 00 00 00 00 00 10 10 10 10 10 10 03 01 00 00 00 00 00 00 00 10 10 10 10 10 10 D0 00 80 01 00 00 00 00 28 16 01 00 03 01 02 00 01 7F 01 0C 00 00 01 00 07 00 01 00 00 00 00 00 00 00 00 00 00"
+                                            },
+                       "nextCaveLoaded":  {
+                                              "cpuClock":  66685246,
+                                              "cpuCyclesSinceSelection":  2831844,
+                                              "state":  "12 15 00 DC 00 08 B2 00 00 00 00 00 00 00 02 00 17 1B 15 18 3C 38 28 3B 03 02 00 00 00 00 00 00 03 10 10 10 10 10 10 03 01 00 00 00 00 00 00 00 10 10 10 10 10 10 03 01 00 00 00 00 00 00 00 10 10 10 10 10 10 D0 07 80 01 00 00 00 00 28 16 01 00 04 00 00 00 02 7F 00 0C 00 00 00 00 07 00 01 00 00 00 00 00 00 00 01 05 00 32 00"
+                                          }
+                   }
+               ]
+}
